@@ -1,0 +1,116 @@
+/* .progressbar input{
+-webkit-appearance: none; */
+/* /* }  */
+
+input[type="range"]::-webkit-slider-thumb {
+    height: 17px;
+    width: 17px;
+    border-radius: 50%;
+    -webkit-appearance: none;
+    background: blue;
+    pointer-events: auto;
+}
+
+input[type="range"]::-moz-range-thumb {
+    height: 17px;
+    width: 17px;
+    border: none;
+    border-radius: 50%;
+    -moz-appearance: none;
+    background: blue;
+    pointer-events: auto;
+}
+
+.bg {
+    background: linear-gradient(rgba(255, 255, 255, 0) 50%, rgb(255, 255, 255) 100%);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-container label {
+    cursor: pointer;
+    display: flex;
+}
+
+.checkbox-container input[type='checkbox'] {
+    cursor: pointer;
+    opacity: 0;
+    position: absolute;
+}
+
+.checkbox-container label {
+    align-items: center;
+}
+
+.checkbox-container label::before {
+    content: '';
+    width: 14px;
+    height: 14px;
+    border-radius: .15em;
+    margin-right: .5em;
+    border: .05em solid #a6a6a6;
+}
+
+.checkbox-container label:hover::before,
+.checkbox-container input[type='checkbox']:hover+label::before {
+    border-color: #36C991;
+}
+
+.checkbox-container input[type='checkbox']:disabled+label,
+.checkbox-container input[type='checkbox']:disabled {
+    color: #aaa;
+    cursor: default;
+}
+
+.checkbox-container input[type='checkbox']:checked+label::before {
+    /* content: '\2713'; */
+    content: '\002714';
+    font-size: 12px;
+    background-color: #36C991;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.checkbox-container input[type='checkbox']:disabled+label::before {
+    background-color: #ccc;
+    border-color: #999;
+}
+
+[type='checkbox']:checked {
+    background-image: url('data:image/svg+xml,<svg viewBox="0 0 16 16" fill="black" xmlns="http://www.w3.org/2000/svg"><path d="M12.207 4.793a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0l-2-2a1 1 0 011.414-1.414L6.5 9.086l4.293-4.293a1 1 0 011.414 0z"/></svg>');
+    color: red;
+}
+
+.img {
+    background: linear-gradient(rgba(255, 255, 255, 0) 70%, rgb(0, 0, 0) 110%);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+}
+
+.caty{
+    scrollbar-width: thin;
+}
+.caty::-webkit-scrollbar {
+    width: 3px;
+    background: #F9F9F9;
+} 
+
+.caty::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.2);
+    background-clip: content-box;
+}
+
+.caty::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 0px solid slategrey;
+}

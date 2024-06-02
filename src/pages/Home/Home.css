@@ -1,0 +1,68 @@
+.caty__list .react-multiple-carousel__arrow {
+    position: absolute;
+    border: 1px solid rgb(0, 0, 0, 0.2) !important;
+    z-index: 2 !important;
+    top: 20px;
+    min-width: 3.5rem !important;
+    min-height: 3.5rem !important;
+}
+
+.caty__list .react-multiple-carousel__arrow::before {
+    font-size: 1.5rem !important;
+}
+
+.caty__list .react-multiple-carousel__arrow--left {
+    margin-left: -4rem;
+    background-color: #112A44 !important;
+}
+
+.caty__list .react-multiple-carousel__arrow--right {
+    margin-right: -4rem;
+    background-color: #112A44 !important;
+}
+
+.caty__list .react-multiple-carousel__arrow--left::before {
+    color: #fff !important;
+}
+
+.caty__list .react-multiple-carousel__arrow--right::before {
+    color: #fff !important;
+}
+
+@media(max-width: 1024px) {
+    .caty__list .react-multiple-carousel__arrow--left {
+        margin-left: -2rem;
+    }
+
+    .caty__list .react-multiple-carousel__arrow--right {
+        margin-right: -2rem;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    /* .caty__list {
+        overflow: unset;
+    }
+
+    .caty__list .react-multiple-carousel__arrow--left {
+        top: -38px;
+        right: 40px;
+        left: unset;
+        max-width: 3.5rem;
+        background-color: #fff !important;
+    }
+
+    .caty__list .react-multiple-carousel__arrow--right {
+        top: -38px;
+        background-color: #fff !important;
+    }
+
+    .caty__list .react-multiple-carousel__arrow--left::before {
+        color: #000 !important;
+    }
+
+    .caty__list .react-multiple-carousel__arrow--right::before {
+        color: #000 !important;
+    } */
+}

@@ -1,0 +1,32 @@
+.slider .react-datalist {
+    display: none;
+}
+
+.slider .react-datalist-input__textbox {
+    outline: none;
+    border: none !important;
+    font-size: 1.4rem;
+}
+
+.slider .react-datalist-input__listbox {
+    /* margin-top: 15px !important; */
+    margin-top: 1.5rem !important;
+    /* width: 165px !important; */
+    width: 16.5rem !important;
+    right: -3.1rem !important;
+    border-radius: 0px !important;
+    font-size: 1.4rem !important;
+}
+
+.slider .react-datalist-input__listbox-option {
+    padding-left: 2rem !important;
+}
+
+@media (max-width: 640px) {
+    .slider .react-datalist-input__listbox{
+        width: 12rem !important;
+        margin-top: 1rem !important;
+        right: -6rem !important;
+    }
+}
+

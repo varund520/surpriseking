@@ -1,0 +1,28 @@
+.header .react-datalist {
+    display: none;
+}
+
+.header .react-datalist-input__textbox {
+    outline: none;
+    border: none !important;
+    color: black;
+    font-size: 12px;
+    border-radius: 10px;
+    /* width: 68px; */
+    padding-left: 10zpx;
+}
+
+.header .react-datalist-input__listbox {
+    color: black;
+    position: absolute;
+    margin-top: 2px !important;
+    border-radius: 0px;
+    background: white;
+    left: -3px;
+    width: 100px;
+    font-size: 14px;
+}
+
+.header .react-datalist-input__listbox-option {
+    padding-left: 7px;
+}
