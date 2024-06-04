@@ -3,15 +3,15 @@ import { BsBank, BsCardChecklist, BsEmojiSmile } from "react-icons/bs";
 import { CgList, CgProfile } from "react-icons/cg";
 import { FaRegAddressBook, FaRegStar, FaRegUser } from "react-icons/fa";
 import { FiInfo, FiLogOut } from "react-icons/fi";
-import { GoDashboard } from "react-icons/go";
+// import { GoDashboard } from "react-icons/go";
 import { MdLanguage, MdOutlineSupportAgent } from "react-icons/md";
 
 export const dashboardItem = [
-    {
-        pathName: "dashboard",
-        icon: <GoDashboard className="text-blue-600" />,
-        name: "Dashboard"
-    },
+    // {
+    //     pathName: "dashboard",
+    //     icon: <GoDashboard className="text-blue-600" />,
+    //     name: "Dashboard"
+    // },
     {
         pathName: "profile",
         icon: <FaRegUser className="text-blue-600" />,
